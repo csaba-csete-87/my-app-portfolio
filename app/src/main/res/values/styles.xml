@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/material_blue_500</item>
+        <item name="colorPrimaryDark">@color/material_blue_700</item>
+        <item name="colorAccent">@color/material_deep_purple_500</item>
+    </style>
+
+    <style name="PortfolioButtonTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="colorButtonNormal">@color/material_blue_500</item>
+    </style>
+
+    <style name="SpecialPortfolioButtonTheme" parent="PortfolioButtonTheme">
+        <item name="colorButtonNormal">@color/material_deep_purple_500</item>
+    </style>
+
+</resources>
